@@ -1,12 +1,11 @@
 
 {{#if posts.length}}
 <section>
-  <h2>Your Blog Posts</h2>
+  <h2>Your Dashboard</h2>
   <ol>
     {{#each posts as |post|}}
     <li>
-      {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+      {{> post-title post}}
     </li>
     {{/each}}
   </ol>

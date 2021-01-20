@@ -75,12 +75,17 @@ router.get("/edit/:id", withAuth, (req, res) => {
       res.render("edit-post", {
         post,
         loggedIn: req.session.loggedIn,
-      });
-    })
-    .catch((err) => {
-      console.log(err);
-      res.status(500).json(err);
+      })
+      .catch((err) => {
+        console.log(err);
+        res.status(500).json(err);
     });
+
+    })
+
+});
+router.get('/new', (req, res) => {
+    res.render('new');
 });
 
 module.exports = router;

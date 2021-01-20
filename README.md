@@ -17,3 +17,5 @@ THEN I am able to delete or update my post and taken back to an updated dashboar
 
 WHEN I am idle on the page for more than a set time
 THEN I am automatically signed out of the site 
+
+ADD Style to the site

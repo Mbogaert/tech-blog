@@ -1,21 +1,28 @@
 # tech-blog
 
-AS A developer who writes about tech
-I WANT a CMS-style blog site
-SO THAT I can publish articles, blog posts, and my thoughts and opinions
+## Description
+  A webpage where users can create a profile and make blog posts off of their profile.
+  
+  ## Table of Contents:
+  * [Description](#description)
+  * [Built With](#built-with)
+  * [Repository](#repository)
+  * [License](#license)
 
-WHEN I visit the site for the first time
-THEN I am presented with the homepage navigation links for the homepage and the dashboard;
-WHEN I click on the homepage option
-THEN I am taken to the homepage
+  ## Built With
+  JavaScript, Node, HTML, CSS, Express, Handlebars, Sequelize, MySql2, JawsDB, Heroku, express
 
-WHEN I click on the homepage option in the navigation
-THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
+  ## Repository
+  [Repository Link](https://github.com/Mbogaert/tech-blog)
 
-WHEN I click on one of my existing posts in the dashboard
-THEN I am able to delete or update my post and taken back to an updated dashboard
+  ## Heroku
+  [Heroku Link](https://aqueous-escarpment-47432.herokuapp.com/)
 
-WHEN I am idle on the page for more than a set time
-THEN I am automatically signed out of the site 
+  ## Screenshot
+  ![Screenshot of the website that is created](./photo/screen-shot.png)
 
-ADD Style to the site
+  ## Contributions
+  Made with Pride by Mathew Bogaert
+
+  ## License
+  This application is unlicensed.
